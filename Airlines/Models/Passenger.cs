@@ -5,16 +5,15 @@ using System.Threading.Tasks;
 
 namespace Airlines.Models
 {
-    public class Passanger
+    public class Passenger
     {
-        public int PID { get; set; }
-        public int Pnr { get; set; }
-        public int PassportNo { get; set; }
-        public string FlıghtCode { get; set; }
-        public string FName { get; set; }
-        public string LName { get; set; }
-        public string Phone { get; set; }
-        public int Age { get; set; }
-        public string Sex { get; set; }
+        public int PassengerID { get; set; }
+        public string PassportNo { get; set; }
+        public string TicketNumber { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string PassengerPhone { get; set; }
+        public int PassengerAge { get; set; }
+        public string PassengerSex { get; set; }
     }
 }
