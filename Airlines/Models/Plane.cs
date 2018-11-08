@@ -7,5 +7,9 @@ namespace Airlines.Models
 {
     public class Plane
     {
+        public string Model { get; set; }
+        public string Capacity { get; set; }
+        public string Type { get; set; }
+        public string Personel { get; set; }
     }
 }
