@@ -13,6 +13,5 @@ namespace Airlines.Models
         public string DepartureTime { get; set; }
         public string ArrivalTime { get; set; }
 
-
     }
 }
